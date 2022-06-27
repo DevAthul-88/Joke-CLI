@@ -1,0 +1,22 @@
+{
+  "name": "joke-cli",
+  "version": "1.0.0",
+  "description": "Joke-CLI",
+  "main": "bin/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Athul Vinod (https://athulvinod.vercel.app/)",
+  "license": "ISC",
+  "bin": {
+    "joke": "./bin/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "boxen": "^7.0.0",
+    "inquirer": "^9.0.0",
+    "kleur": "^4.1.4",
+    "yargs": "^17.5.1"
+  }
+}
